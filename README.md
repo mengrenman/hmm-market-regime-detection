@@ -50,12 +50,11 @@ hmm-market-regime-detection/
 
 Interactive examples live in `notebooks/`:
 
-- [`notebooks/01_openbb_hmm_pipeline_walkthrough.ipynb`](notebooks/01_openbb_hmm_pipeline_walkthrough.ipynb):
-  End-to-end workflow from OpenBB download to HMM fitting, regime labeling, artifact export, and visualization.
-- [`notebooks/02_walk_forward_drift_diagnostics.ipynb`](notebooks/02_walk_forward_drift_diagnostics.ipynb):
-  Rolling retraining with transition drift, label-flip drift, and log-likelihood drift diagnostics.
-- [`notebooks/README.md`](notebooks/README.md):
-  Notebook index and usage notes.
+| # | Notebook | Topics |
+|---|---|---|
+| 01 | [`OpenBB to HMM Pipeline`](notebooks/01_openbb_hmm_pipeline_walkthrough.ipynb) | OpenBB download, Gaussian HMM fitting, state labeling (`calm`/`neutral`/`stress`), artifact export, regime visualization |
+| 02 | [`Walk-Forward Drift Diagnostics`](notebooks/02_walk_forward_drift_diagnostics.ipynb) | Rolling retraining, transition-matrix drift, label-flip drift, log-likelihood drift, instability triage plots |
+| 03 | [`Notebook Index`](notebooks/README.md) | Notebook usage notes and navigation |
 
 ## Quickstart
 
