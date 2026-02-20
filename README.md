@@ -46,6 +46,17 @@ hmm-market-regime-detection/
    └─ test_walk_forward.py
 ```
 
+## Notebooks
+
+Interactive examples live in `notebooks/`:
+
+- [`notebooks/01_openbb_hmm_pipeline_walkthrough.ipynb`](notebooks/01_openbb_hmm_pipeline_walkthrough.ipynb):
+  End-to-end workflow from OpenBB download to HMM fitting, regime labeling, artifact export, and visualization.
+- [`notebooks/02_walk_forward_drift_diagnostics.ipynb`](notebooks/02_walk_forward_drift_diagnostics.ipynb):
+  Rolling retraining with transition drift, label-flip drift, and log-likelihood drift diagnostics.
+- [`notebooks/README.md`](notebooks/README.md):
+  Notebook index and usage notes.
+
 ## Quickstart
 
 ### 1) Create environment
