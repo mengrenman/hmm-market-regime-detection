@@ -1,0 +1,14 @@
+# Example config for daily SPY regime detection.
+# CLI currently accepts explicit arguments; this file is a template for future config loading.
+
+input_csv: data/spy_daily.csv
+output_dir: outputs/spy_daily
+
+datetime_col: datetime
+close_col: close
+
+hmm:
+  n_states: 3
+  covariance_type: full
+  n_iter: 300
+  random_state: 42

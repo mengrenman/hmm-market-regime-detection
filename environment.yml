@@ -1,0 +1,14 @@
+name: hmm-regime
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - hmmlearn
+  - matplotlib
+  - pytest
+  - pip
